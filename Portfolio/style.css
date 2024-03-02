@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: all 3s ease-in-out;
+  /* Root font-size = 16, change to 16*62.5%=10px */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(1, 1, 30);
+  color: white;
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8rem;
+  background-color: rgb(8, 8, 86);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 2.5rem;
+  font-size: 2.5rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(133, 133, 207);
+}
+.left {
+  font-size: 4rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 160px 30px;
+  align-items: center;
+}
+.firstSection > div {
+  width: 40%;
+}
+.leftSection {
+  font-size: 4rem;
+}
+.rightSection img {
+  width: 80%;
+}
+.purple {
+  color: rgb(132, 75, 185);
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+h1 {
+  font-size: 4rem;
+}
+hr {
+  background: white;
+  border: 0px;
+  height: 1px;
+  margin: 40px 84px;
+}
+.thirdSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.forthSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.fifthSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.sixthSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
